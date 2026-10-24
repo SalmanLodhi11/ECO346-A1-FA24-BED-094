@@ -31,3 +31,8 @@ The results show a substantial gender inequality in literacy in rural Balochista
 ## Q4: Default Plot and Redesign
 
 The default graph shows individual people's literacy status against their age, using the basic ggplot settings. The redesigned graph is easier to understand for several reasons. First, it uses a clear title and axis labels to explain the information. Second, it uses different colours to distinguish men from women, making comparison easier. Third, it groups people into five-year age bands and displays weighted literacy rates instead of individual 0 and 1 values. Finally, direct labels and an annotation help readers identify important findings without needing a separate legend. These changes improve clarity, comparison, and communication. However, the default graph shows individual observations, while the redesigned graph hides individual differences within each age group.
+
+
+## Q5: Python Reproduction
+
+I reproduced the literacy table and graph in Python, and the weighted literacy rates matched the R results to one decimal place. For women aged 15–19, the literacy rate was 33.3% in both R and Python. One difference is that R's ggplot2 and Python's Matplotlib have different default graph styles. I added titles, axis labels, markers and a grid in Python to make the comparison easier to read.
