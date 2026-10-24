@@ -26,3 +26,8 @@ Weighting: Household survey weights (`hhweight`).
 ### Q3. Interpretation
 
 The results show a substantial gender inequality in literacy in rural Balochistan. Men have higher weighted literacy rates than women in every age group. The gap is particularly large among people aged 40–44, where male literacy is 55.4% and female literacy is 7.5%, a difference of 47.9 percentage points. This suggests that women, especially older women, have faced greater barriers to education. However, the data are observational and do not establish the causes of this inequality. Other factors, such as household income, school access, and social conditions, may also influence literacy.
+
+
+## Q4: Default Plot and Redesign
+
+The default graph shows individual people's literacy status against their age, using the basic ggplot settings. The redesigned graph is easier to understand for several reasons. First, it uses a clear title and axis labels to explain the information. Second, it uses different colours to distinguish men from women, making comparison easier. Third, it groups people into five-year age bands and displays weighted literacy rates instead of individual 0 and 1 values. Finally, direct labels and an annotation help readers identify important findings without needing a separate legend. These changes improve clarity, comparison, and communication. However, the default graph shows individual observations, while the redesigned graph hides individual differences within each age group.
